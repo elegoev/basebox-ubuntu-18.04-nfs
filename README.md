@@ -1,5 +1,5 @@
 ## ubuntu-18.04-nfs
-Vagrant Box with Ubuntu 18.04
+Vagrant Box with Ubuntu 18.04 & NFS
 
 #### Base image
 Used base image [bento/ubuntu-18.04](https://app.vagrantup.com/bento/boxes/ubuntu-18.04)
