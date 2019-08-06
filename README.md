@@ -2,7 +2,7 @@
 Vagrant Box with Ubuntu 18.04 & NFS
 
 #### Base image
-Used base image [bento/ubuntu-18.04](https://app.vagrantup.com/bento/boxes/ubuntu-18.04)
+Used base image [elegoev/ubuntu-18.04](https://app.vagrantup.com/elegoev/boxes/ubuntu-18.04)
 
 #### Automatic provisioning
 The base image is provisioned with bash script [ubuntu-18.04-nfs.sh](https://github.com/elegoev/vagrant-ubuntu/blob/master/vagrant-ubuntu1804-nfs/provisioning/ubuntu-18.04-nfs.sh)
