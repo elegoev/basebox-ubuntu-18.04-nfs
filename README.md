@@ -1,13 +1,13 @@
 ## ubuntu-18.04-nfs
 Vagrant Box with Ubuntu 18.04 & NFS
 
-#### Base image
+### Base image
 Used base image [elegoev/ubuntu-18.04](https://app.vagrantup.com/elegoev/boxes/ubuntu-18.04)
 
-#### Automatic provisioning
+### Automatic provisioning
 The base image is provisioned with bash script [ubuntu-18.04-nfs.sh](https://github.com/elegoev/vagrant-ubuntu/blob/master/vagrant-ubuntu1804-nfs/provisioning/ubuntu-18.04-nfs.sh)
 
-#### References
+### References
   - [NFS Server](https://vitux.com/install-nfs-server-and-client-on-ubuntu/)
   - [NFS Wiki](https://wiki.ubuntuusers.de/NFS/)
 
