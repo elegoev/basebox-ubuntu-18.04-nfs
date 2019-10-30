@@ -10,7 +10,6 @@ The base image is provisioned with bash script [ubuntu-18.04-nfs.sh](https://git
 ### References
 - [NFS Server](https://vitux.com/install-nfs-server-and-client-on-ubuntu/)
 - [NFS Wiki](https://wiki.ubuntuusers.de/NFS/)
-- [Used Vagrantfile for Basebox](https://github.com/elegoev/vagrant-ubuntu-18.04/blob/master/jenkins/vagrant/esxi/_Vagrantfile)
 
 ###  Create Vagrant Box Environment
 #### Provider "virtualbox"
