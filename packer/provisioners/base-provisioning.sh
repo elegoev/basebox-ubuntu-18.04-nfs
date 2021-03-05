@@ -37,7 +37,7 @@ sudo chown nobody:nogroup $SHAREDFOLDERDIR
 sudo chmod 777 $SHAREDFOLDERDIR
 
 # add shared folder to exports
-echo "# $SHAREDFOLDERDIR  172.16.1.0/255.255.255.0(rw,async)" >> /etc/exports
+sudo echo "# $SHAREDFOLDERDIR  172.16.1.0/255.255.255.0(rw,async)" >> /etc/exports
 
 # set version
 UBUNTU_VERSION=$(lsb_release -a | grep Release | awk  '{print $2}')
