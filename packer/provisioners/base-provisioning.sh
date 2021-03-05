@@ -9,8 +9,27 @@ SHAREDFOLDERDIR="/mnt/sharedfolder"
 sudo apt -y update
 
 # install nfs kernel
-sudo apt install -y nfs-kernel-server
-sudo apt install -y lsb-core
+while :
+do
+  sudo apt install -y nfs-kernel-server
+  retcode=$?
+  if [ $retcode -eq 0 ]; then
+    break
+  fi
+  echo "sleep 5s ..."
+  sleep 5
+done
+
+while :
+do
+  sudo apt install -y lsb-core
+  retcode=$?
+  if [ $retcode -eq 0 ]; then
+    break
+  fi
+  echo "sleep 5s ..."
+  sleep 5
+done
 
 # create shared folder
 sudo mkdir -p $SHAREDFOLDERDIR
